@@ -1,11 +1,11 @@
 public class Rocket implements SpaceShip {
 
-    private int cost;
-    private int weight;
-    private int maxWeight;
-    private int changeLaunchExplosion;
-    private int chanceLandingCrash;
-    private int currentWeight;
+    protected int cost;
+    protected int weight;
+    protected int maxWeight;
+    protected double chanceLaunchExplosion;
+    protected double chanceLandingCrash;
+    protected int currentWeight;
 
     @Override
     public boolean launch() {
